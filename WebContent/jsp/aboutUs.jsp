@@ -45,8 +45,8 @@
 					not only to our employees but also other banks/establishments in India and abroad.</p>
 					<h3>Call us</h3>
 					<p>
-					Please call BOBankLtd 24X7 helpline through Toll free 1800 11 2211, 1800 425 3800 or 
-					Toll number 080-26599990 These are accessible from all landlines and mobile phones in the country.
+					Please call BOBankLtd 24X7 help line through Toll free 1800 11 2211, 1800 425 3800 or 
+					Toll number 080-26599990 These are accessible from all land lines and mobile phones in the country.
 					</p>
             </div>         
     	</div>

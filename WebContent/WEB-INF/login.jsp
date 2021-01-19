@@ -173,7 +173,7 @@
                 </table>
 
                 <input type="checkbox" name="remember-me" value="Remember me" style="width:15px;"  />Remember me<br><br>
-                <input type="submit"   name="login-now" value="login" style="border-radius: 25px;width:150px;height: 35px;background-image: url('../images/login-icon.png');" /><br>&nbsp;
+                <input type="submit"   name="login-now" style="border-radius: 25px;width:150px;height: 35px;background-image: url('../images/login-icon.png');" /><br>&nbsp;
                 <input type="hidden"  name="pov" value="login" />
                 <hr>  
             </div>
