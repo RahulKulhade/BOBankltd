@@ -18,13 +18,21 @@ public class LoginController {
 			
 			String userid=(request.getParameter("userid").trim());
 			String password=(request.getParameter("password").trim());
+			String type=(request.getParameter("type").trim());
 			System.out.println(userid);
 			System.out.println(password);
-			Item x=s.GetItemDetail(userid,password);
-			if(x.getUserid().equals(userid) && x.getPassword().equals(password))
+			System.out.println(type);
+			
+			Item x=s.GetItemDetail(userid,password,type);
+			if(x.getUserid().equals(userid) && x.getPassword().equals(password) && x.getType().equals(type))
 			{
-				System.out.println("welcome success");
+				System.out.println("welcome success C");
 				pn="/WEB-INF/customerHomePage.jsp";
+			}
+			if(x.getUserid().equals(userid) && x.getPassword().equals(password) && x.getType().equals(type))
+			{
+				System.out.println("welcome success A");
+				pn="/WEB-INF/adminHomePage.jsp";
 			}
 			else
 			{

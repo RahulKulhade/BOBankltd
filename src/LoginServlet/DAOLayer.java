@@ -51,13 +51,13 @@ public class DAOLayer {
 	}
 	public Item GetDetailsFromDB(String userid,String password) {
 		// TODO Auto-generated method stub
-		Item i=new Item(userid,password);
+		Item i=new Item("xyz","123");
 		
 		try {
 			String sql="  select loginId,loginPassword from tbl_login where loginId=? and loginPassword=?";
 			PreparedStatement stmt=con.prepareStatement(sql);
-			stmt.setString(1, i.getUserid());
-			stmt.setString(2, i.getPassword());
+			stmt.setString(1,userid);
+			stmt.setString(2,password);
 	        ResultSet ra=stmt.executeQuery();
 	        if(ra.next())
 	        {

@@ -12,7 +12,7 @@
         <link rel="stylesheet" type="text/css" href="css/nivo-slider.css"  media="screen" />
         <script src="jquery/jquery-1.9.0.min.js" type="text/javascript"></script>        
         <script src="jquery/jquery.nivo.slider.js" type="text/javascript"></script>
-        <title>Online Banking System</title>
+        <title>BOBanksLtd</title>
         <style>
         
         </style>

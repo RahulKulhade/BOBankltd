@@ -23,8 +23,8 @@
 			action="<%=pageContext.getServletContext().getContextPath()%>/LoginServlet"
 			method="POST">
 			<div class="SignIn">
-				<h2>Bank Login</h2>
-				<h4>Welcome Back management team</h4>
+				<h2>Login to your Account</h2>
+				<h4>We are happy to see you return! Please log in to continue.</h4>
 				<table>
 					<tr>
 						<td><span>User name</span><br>
@@ -43,13 +43,13 @@
 							<div style="height: 20px; font-size: 13px;">
 								<span name="passwordError" style="color: red;"></span>
 							</div></td>
-					<!-- </tr>
+					</tr>
 					<tr>
 						<td><input type="radio" name="user" id="admin" value="A"> <label
 							for="A" >Admin</label> <input type="radio" name="user"
 							id="customer"  value="C"> <label for="C">Customer</label>
 							</td>
-					</tr> -->
+					</tr>
 				</table>
 
 				<input type="checkbox" name="remember-me" value="Remember me"

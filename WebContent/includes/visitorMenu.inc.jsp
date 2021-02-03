@@ -3,10 +3,10 @@
 <div id="menu">
     <ul>
          <li><a href="${path }/index.jsp">Home</a></li>
-         <li><a href="">Forms</a></li>	
-	     <li><a href="">ATM Locators</a></li>				
-	     <li><a href="">Branch Locators</a></li>
-	     <li><a href="">BOB in the news</a></li> 
+         <li><a href="${path }/jsp/forms.jsp">Forms</a></li>	
+	     <li><a href="${path }/jsp/locator.jsp">ATM Locators</a></li>				
+	     <li><a href="${path }/jsp/login.jsp">Branch Login</a></li>
+	     <li><a href="${path }/jsp/loginuser.jsp">Customer login</a></li>
 	     <li><a href="${path }/jsp/services.jsp">Services</a></li>
 	     <li><a href="${path }/jsp/aboutUs.jsp">About Us</a></li>                
 	</ul>
